@@ -1,0 +1,324 @@
+/* github.com/callseven/
+*/
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: block;
+    place-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background: var(--Darkgrayishblue);
+    background: url(images/bg-pattern-top.svg) 123% 171% no-repeat, url(images/bg-pattern-bottom.svg) 20% -79% no-repeat;
+    height: 100%;
+    min-width: 100vw;
+    margin: 0;
+    position: absolute;
+}
+
+main {
+    /* background: url(images/bg-pattern-top.svg) -360px -510px no-repeat, url(images/bg-pattern-bottom.svg) 620px 375px no-repeat; */
+    height: 100%;
+    width: 100%;
+    margin-top: -280px;
+    /* position: relative; */
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 18px;
+    margin: auto;
+}
+
+header {
+    background: whitesmoke;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.faixa {
+    background: lightblue;
+    width: 100%;
+    height: 10px;
+    margin: 0;
+    display: flex;
+    padding: 8px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.red {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.red:hover {
+    cursor: pointer;
+}
+
+.orange:hover {
+    cursor: pointer;
+}
+
+.green:hover {
+    cursor: pointer;
+}
+
+.orange {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+
+.green {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+
+.menu {
+    font-size: 1.85vw;
+    width: 0;
+    height: 120px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu :first-child {
+    font-weight: 700;
+    margin: 1.5vw;
+    ;
+}
+
+.menu :nth-child(n+2):nth-child(-n+5) {
+    color: darkgray;
+    margin-left: 1rem;
+}
+
+.menu :hover:nth-child(n+2):nth-child(-n+6) {
+    color: var(--Verydarkdesaturatedblue);
+    cursor: pointer;
+}
+
+.menu :nth-child(n+1):nth-child(-n+5) {
+    text-transform: uppercase;
+}
+
+.menu :last-child {
+    background-color: rgba(67, 98, 126, 0.425);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+    transition: all 1s ease-in-out;
+    margin-right: 8px;
+    font-size: 2.35vw;
+    margin-left: 1rem;
+}
+
+.menu :hover:nth-child(n+6) {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+    font-size: 2.95vw;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+footer {
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: cornflowerblue;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+footer a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--Darkgrayishblue);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+footer a:link {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 956px) {
+    body {
+        display: block;
+        place-items: center;
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 18px;
+        background: var(--Darkgrayishblue);
+        /* width: 375px; */
+        background: url(images/bg-pattern-top.svg) -360px -510px no-repeat, url(images/bg-pattern-bottom.svg) 620px 375px no-repeat;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+    }
+    main {
+        /* background: url(images/bg-pattern-top.svg) -360px -510px no-repeat, url(images/bg-pattern-bottom.svg) 620px 375px no-repeat; */
+        height: 100%;
+        width: 100%;
+        margin-top: -280px;
+        /* position: relative; */
+    }
+    nav {
+        width: 80%;
+        margin: auto;
+        padding: 20px 0;
+        font-weight: 700;
+        font-size: 28px;
+        margin: auto;
+    }
+    header {
+        /* overflow: hidden; */
+        background: whitesmoke;
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        border-radius: 5px;
+    }
+    .faixa {
+        background: lightblue;
+        width: 100%;
+        height: 10px;
+        margin: 0;
+        /* border-color: royalblue solid 2px; */
+        display: flex;
+        padding: 10px 0;
+        border-radius: 5px 5px 0 0;
+    }
+    .red {
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 40px;
+        margin-left: 10px;
+    }
+    .orange {
+        width: 10px;
+        height: 10px;
+        background-color: orange;
+        border-radius: 40px;
+        margin-left: 5px;
+    }
+    .green {
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        border-radius: 40px;
+        margin-left: 5px;
+    }
+    .menu {
+        font-size: 1.15rem;
+        width: 0;
+        height: 200px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .menu :first-child {
+        font-weight: 700;
+        margin: 350px;
+    }
+    .menu :nth-child(n+2):nth-child(-n+5) {
+        color: darkgray;
+        margin-left: 2rem;
+        font-weight: 700;
+    }
+    .menu :nth-child(n+2):nth-child(-n+5) {
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+    .menu :hover:nth-child(n+2):nth-child(-n+6) {
+        color: var(--Verydarkdesaturatedblue);
+        font-weight: 700;
+    }
+    .menu :hover:nth-child(n+2):nth-child(-n+5) {
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+    .menu :nth-child(n+1):nth-child(-n+5) {
+        text-transform: uppercase;
+    }
+    .menu :last-child {
+        background-color: blue;
+        border-radius: 5px;
+        padding: 8px 15px;
+        color: white;
+        font-size: 18px;
+        transition: all 1s ease-in-out;
+        margin-right: 30px;
+        font-weight: 700;
+    }
+    .menu :hover:nth-child(n+6) {
+        background-color: lightblue;
+        border-radius: 5px;
+        padding: 8px 15px;
+        color: rgb(7, 210, 255);
+        font-size: 18px;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+    footer {
+        font-size: 12px;
+        font-family: 'Kumbh Sans', sans-serif;
+        color: aqua;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+        top: -50px;
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    }
+    footer a {
+        text-decoration: none;
+        color: chocolate;
+    }
+    footer a:hover {
+        color: royalblue;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+    /* footer a:link {
+        color: chartreuse;
+        text-decoration: none;
+    } */
+}
