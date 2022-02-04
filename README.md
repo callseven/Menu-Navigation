@@ -3,7 +3,9 @@ link> https://app.rocketseat.com.br/node/flexbox/group/desafios/lesson/header-me
 
 Minha solução:
 
-![Desktop](https://user-images.githubusercontent.com/7409421/152077239-7e87f03c-8ce0-4d45-87f2-b2773981ac7b.png)
+![Mobile](https://user-images.githubusercontent.com/7409421/152462077-cdf717ac-24e1-4569-8a80-ad52eefe8d03.png)
+
+![Desktop](https://user-images.githubusercontent.com/7409421/152462121-78d4f087-3bf9-497b-bc65-22674b2f109e.png)
 
 
 
@@ -32,6 +34,7 @@ VSCode, Google Chrome
 
 Envie sua solução para a comunidade.
 Submit your solution on the platform for the rest of the community to see. 
+https://app.rocketseat.com.br/node/flexbox/group/desafios/lesson/header-menu-navigation
 
 ## Compartilhe o Desafio - Sharing your solution
 Este desafio ê completamente grâtis. Compartilhe com quem quiser praticar.
