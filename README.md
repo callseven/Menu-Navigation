@@ -3,7 +3,7 @@ link> https://app.rocketseat.com.br/node/flexbox/group/desafios/lesson/header-me
 
 Minha solução:
 
-https://github.com/callseven/Menu-Navigation
+https://callseven.github.io/Menu-Navigation/
 
 ![Mobile](https://user-images.githubusercontent.com/7409421/152462077-cdf717ac-24e1-4569-8a80-ad52eefe8d03.png)
 
